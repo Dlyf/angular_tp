@@ -1,0 +1,10 @@
+<main>
+    <form (ngSubmit)="connecter()">
+        <input type="text" name="pseudo" placeholder="pseudo" [(ngModel)]="pseudonyme">
+        <input type="email" name="mail" placeholder="mail" [(ngModel)]="mel">
+
+        <input type="submit" value="se connecter">
+    </form>
+
+    <h2 (click)="truc()">Mon titre</h2>
+</main>

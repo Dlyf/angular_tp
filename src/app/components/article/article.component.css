@@ -1,0 +1,23 @@
+article {
+    width: 250px;
+    background-color: #3E3E3E;
+}
+
+img {
+    max-width: 200px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+    
+}

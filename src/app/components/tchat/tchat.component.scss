@@ -1,0 +1,60 @@
+#tchat {
+    width: 800px;
+ 
+    .contenu {
+        height: 800px;
+        width:  800px;
+ 
+        aside {
+            background: yellow;
+            float: left;
+            height: 100%;
+            width: 200px;
+        }
+        main {
+            background: rgb(54, 71, 28);
+            float: right;
+            height: 100%;
+            width: 600px;
+            overflow: auto;
+        }
+    }
+ 
+    #messagin {
+        background: plum;
+        width: 100%;
+ 
+        input {
+            display: inline-block;
+            width: 500px;
+            height: 30px;
+            font-size: 20px;
+ 
+            &[type="submit"]{
+                width: 120px;
+            }
+        }
+    }
+ }
+
+ 
+// h2 {
+//     color: red;
+// }
+// #tchat {
+//     .contenu {
+//         width: 500px;
+//         height: 1000px;
+//         border: 1px solid gray;
+//         background-color: coral;
+//     }
+
+//     #messagein {
+        
+//     }
+
+//     input {
+//         padding-right: 263px;
+//     }
+
+// }

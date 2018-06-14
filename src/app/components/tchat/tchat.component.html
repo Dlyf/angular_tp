@@ -1,0 +1,22 @@
+<h2>Page de Tchat</h2>
+
+<div id="tchat">
+    <div class="contenu">
+        <aside id="tchaters"></aside>
+        <main id="messages">
+            <div *ngFor=" let msg of messagesUtilisateurs ">
+                <span>{{ msg.id | toDate }}</span> ->
+                <span>{{ msg.texte }}</span>
+            </div>
+        </main>
+    </div>
+
+
+    <div id="messagin">
+
+    </div>
+    <form (ngSubmit)="envoyerMessage()">
+        <input type="texte" name="message" placeholder="message"  [(ngModel)]="msg">
+        <input type="submit" value="Envoyer" placeholder="envoyer">
+    </form>
+</div>
